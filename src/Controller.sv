@@ -3,7 +3,6 @@ module Controller
 (
     /* inst information */
     input inst_t inst,
-    input logic clk,
     /* next PC select */
     output next_pc_sel_t next_pc_sel,
     /* Register File Control */
